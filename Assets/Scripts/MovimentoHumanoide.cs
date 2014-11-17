@@ -3,26 +3,19 @@ using System.Collections;
 
 public class MovimentoHumanoide : MonoBehaviour {
 
-    private CharacterController controller;
     private float movementSpeed = 2f;
     private float rotationSpeed = 180f;
-    private float gravityAccel = -0.25f;
-    private float jumpHeight = 0.10f;
+    private float jumpHeight = 2f;
     private float jumpInterval = 0.4f;
-
-    private float verticalVelocity;
     private float lastJump;
 
-	void Start () {
-        controller = GetComponent<CharacterController>();
-        verticalVelocity = 0f;
-
-        jumpInterval += -Mathf.Sqrt(-2 * gravityAccel * jumpHeight) / gravityAccel;
+    void Start() {
+        jumpInterval += -Mathf.Sqrt(-2 * Physics.gravity.y * jumpHeight) / Physics.gravity.y;
         lastJump = -jumpInterval;
-	}
+    }
 	
 
-	void Update () {
+	void FixedUpdate () {
         Rotacionar();
         Movimentar();
 	}
@@ -32,29 +25,34 @@ public class MovimentoHumanoide : MonoBehaviour {
         transform.Rotate(Vector3.up, rotation);
     }
     private void Movimentar() {
-        float movement = movementSpeed * Input.GetAxis("Vertical") * Time.deltaTime;
+        Vector3 verticalSpeed = Vector3.zero;
+        float forwardSpeed = movementSpeed * Input.GetAxis("Vertical") * Time.deltaTime;
 
-        if (controller.isGrounded) {
-            if (Input.GetButton("Jump") && verticalVelocity < 0.1f && (Time.time > (lastJump + jumpInterval))) {
-                verticalVelocity = Mathf.Sqrt(-2 * gravityAccel * jumpHeight) / 2f;
-                lastJump = Time.time;
-            } else {
-                verticalVelocity = 0;
+        if (Input.GetButton("Jump")) {
+            if (isGrounded() && Time.time > lastJump) {
+                verticalSpeed += transform.up * JumpSpeed();
+                lastJump += jumpInterval;
             }
-        } else {
-            verticalVelocity += gravityAccel * Time.deltaTime;
         }
 
+        rigidbody.velocity = rigidbody.velocity + verticalSpeed;
+        rigidbody.MovePosition(rigidbody.position + transform.forward * forwardSpeed);
+        
 
-        if (movement != 0) {
+        if (rigidbody.velocity != Vector3.zero || forwardSpeed != 0) {
             animation.CrossFade("run");
         } else {
             animation.CrossFade("idle");
         }
+    }
 
-        
-        controller.Move(
-            transform.forward * movement + 
-            transform.up * verticalVelocity);
+    private bool isGrounded() {
+        return Physics.Raycast(
+            new Ray(transform.position, Vector3.down),
+            transform.localScale.y * 1.02f,
+            LayerMask.GetMask("Floor"));
+    }
+    private float JumpSpeed() {
+        return Mathf.Sqrt(-2 * Physics.gravity.y * jumpHeight) / 2f;
     }
 }

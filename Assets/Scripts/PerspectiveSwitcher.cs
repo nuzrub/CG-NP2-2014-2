@@ -11,7 +11,7 @@ public class PerspectiveSwitcher : MonoBehaviour
 		{
 			ortho = !ortho;
 			if (ortho)
-			camera.orthographic = true;
+			    camera.orthographic = true;
 			else
 				camera.orthographic = false;
 		}

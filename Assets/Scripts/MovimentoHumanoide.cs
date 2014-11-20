@@ -6,7 +6,7 @@ public class MovimentoHumanoide : MonoBehaviour {
     private float movementSpeed = 2f;
     private float rotationSpeed = 180f;
     private float jumpHeight = 2f;
-    private float jumpInterval = 0.4f;
+    private float jumpInterval = 0.95f;
     private float lastJump;
 
     void Start() {

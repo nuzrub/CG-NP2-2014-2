@@ -37,9 +37,10 @@ public class MovimentoHumanoide : MonoBehaviour {
 
         rigidbody.velocity = rigidbody.velocity + verticalSpeed;
         rigidbody.MovePosition(rigidbody.position + transform.forward * forwardSpeed);
-        
 
-        if (rigidbody.velocity != Vector3.zero || forwardSpeed != 0) {
+        if (!isGrounded()) {
+            animation.CrossFade("idle");
+        } else if (forwardSpeed != 0) {
             animation.CrossFade("run");
         } else {
             animation.CrossFade("idle");

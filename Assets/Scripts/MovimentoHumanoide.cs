@@ -3,6 +3,7 @@ using System.Collections;
 
 public class MovimentoHumanoide : MonoBehaviour {
 
+    public bool Habilitado = true;
     private float movementSpeed = 2f;
     private float rotationSpeed = 180f;
     private float jumpHeight = 2f;
@@ -21,8 +22,10 @@ public class MovimentoHumanoide : MonoBehaviour {
 	}
 
     private void Rotacionar() {
-        float rotation = rotationSpeed * Input.GetAxis("Horizontal") * Time.deltaTime;
-        transform.Rotate(Vector3.up, rotation);
+        if (Habilitado) {
+            float rotation = rotationSpeed * Input.GetAxis("Horizontal") * Time.deltaTime;
+            transform.Rotate(Vector3.up, rotation);
+        }
     }
     private void Movimentar() {
         Vector3 verticalSpeed = Vector3.zero;
@@ -33,6 +36,11 @@ public class MovimentoHumanoide : MonoBehaviour {
                 verticalSpeed += transform.up * JumpSpeed();
                 lastJump += jumpInterval;
             }
+        }
+
+        if (!Habilitado) {
+            forwardSpeed = 0;
+            verticalSpeed = Vector3.zero;
         }
 
         rigidbody.velocity = rigidbody.velocity + verticalSpeed;

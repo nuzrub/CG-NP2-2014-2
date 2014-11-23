@@ -23,8 +23,12 @@ public class CameraRotation : MonoBehaviour {
 		}
 
         if (Input.GetKey(KeyCode.R)) {
-            transform.localPosition = initialPos;
-            transform.localRotation = initialRot;
+            ResetCamera();
         }
 	}
+
+    public void ResetCamera() {
+        transform.localPosition = initialPos;
+        transform.localRotation = initialRot;
+    }
 }

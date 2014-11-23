@@ -6,10 +6,10 @@ public class Evento_Ygor : MonoBehaviour {
     public Transform dragaoPrefab;
     public Transform dragaoStart;
     public Transform dragaoEnd;
+    public CameraRotation cameraRotation;
+    public Light luz;
 
     private MovimentoHumanoide player;
-    private Vector3 cameraInitialPosition;
-    private Quaternion cameraInitialRotation;
     private Transform dragao;
     private float cronometro;
     private bool comecou;
@@ -22,9 +22,6 @@ public class Evento_Ygor : MonoBehaviour {
             comecou = true;
             player = other.GetComponent<MovimentoHumanoide>();
             player.Habilitado = false;
-
-            cameraInitialPosition = Camera.main.transform.position;
-            cameraInitialRotation = Camera.main.transform.rotation;
 
             dragao = (Transform)Instantiate(dragaoPrefab, dragaoStart.position, dragaoStart.rotation);
         }
@@ -47,8 +44,7 @@ public class Evento_Ygor : MonoBehaviour {
 
             // Voltando pra câmera normal e destruindo o evento e dragão.
             } else {
-                Camera.main.transform.position = cameraInitialPosition;
-                Camera.main.transform.rotation = cameraInitialRotation;
+                cameraRotation.ResetCamera();
                 player.Habilitado = true;
                 Destroy(dragao.gameObject);
                 Destroy(this.gameObject);

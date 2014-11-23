@@ -59,7 +59,7 @@ public class MovimentoHumanoide : MonoBehaviour {
         return Physics.Raycast(
             new Ray(transform.position, Vector3.down),
             transform.localScale.y * 1.02f,
-            LayerMask.GetMask("Floor"));
+            LayerMask.GetMask("Floor", "Floor Movel"));
     }
     private float JumpSpeed() {
         return Mathf.Sqrt(-2 * Physics.gravity.y * jumpHeight) / 2f;

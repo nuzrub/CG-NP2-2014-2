@@ -24,6 +24,8 @@ public class Evento_Ygor : MonoBehaviour {
             player.Habilitado = false;
 
             dragao = (Transform)Instantiate(dragaoPrefab, dragaoStart.position, dragaoStart.rotation);
+            dragao.animation.CrossFade("flying");
+            dragao.RotateAround(dragao.position, Vector3.up, 180);
         }
     }
 
@@ -34,7 +36,7 @@ public class Evento_Ygor : MonoBehaviour {
             // Camera seguindo o dragão
             if (cronometro < 6) {
                 dragao.transform.position = Vector3.Lerp(dragaoStart.position, dragaoEnd.position, cronometro / 6f);
-                Camera.main.transform.position = dragao.transform.position - new Vector3(3.5f, 0, 0);
+                Camera.main.transform.position = dragao.transform.position - new Vector3(4.5f, 0.3f, 0);
                 Camera.main.transform.LookAt(dragao);
 
             // Camera olhando pro player

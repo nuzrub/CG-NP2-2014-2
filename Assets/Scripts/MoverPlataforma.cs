@@ -10,7 +10,7 @@ public class MoverPlataforma : MonoBehaviour {
     private bool voltando;
 
 	void Start () {
-        transform.position = start.position;
+        transform.position = end.position;
         cronometro = 0;
         voltando = false;
 	}
@@ -19,15 +19,26 @@ public class MoverPlataforma : MonoBehaviour {
 	void Update () {
         cronometro += Time.deltaTime;
 
-        if (voltando) {
+        /*if (voltando) {
             rigidbody.MovePosition(Vector3.Lerp(end.position, start.position, cronometro / duration));
         } else {
             rigidbody.MovePosition(Vector3.Lerp(start.position, end.position, cronometro / duration));
+        }*/
+        if (voltando) {
+            rigidbody.velocity = (end.position - start.position) / duration;
+        } else {
+            rigidbody.velocity = (start.position - end.position) / duration;
         }
 
         if (cronometro > duration) {
             cronometro -= duration;
             voltando = !voltando;
+
+            if (voltando) {
+                rigidbody.velocity = (start.position - end.position) / duration;
+            } else {
+                rigidbody.velocity = (end.position - start.position) / duration;
+            }
         }
 	}
 }

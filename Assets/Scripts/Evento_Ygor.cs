@@ -9,8 +9,8 @@ public class Evento_Ygor : MonoBehaviour {
     public CameraRotation cameraRotation;
     public Light luz;
 
+    private DragaoScript dragao;
     private MovimentoHumanoide player;
-    private Transform dragao;
     private float cronometro;
     private bool comecou;
 
@@ -23,9 +23,10 @@ public class Evento_Ygor : MonoBehaviour {
             player = other.GetComponent<MovimentoHumanoide>();
             player.Habilitado = false;
 
-            dragao = (Transform)Instantiate(dragaoPrefab, dragaoStart.position, dragaoStart.rotation);
-            dragao.animation.CrossFade("flying");
-            dragao.RotateAround(dragao.position, Vector3.up, 180);
+            Transform dragaoObject = (Transform)Instantiate(dragaoPrefab, dragaoStart.position, dragaoStart.rotation);
+            dragao = dragaoObject.GetComponent<DragaoScript>();
+            dragao.UsarFogo();
+            dragao.transform.RotateAround(dragao.transform.position, Vector3.up, 180);
         }
     }
 
@@ -37,7 +38,7 @@ public class Evento_Ygor : MonoBehaviour {
             if (cronometro < 6) {
                 dragao.transform.position = Vector3.Lerp(dragaoStart.position, dragaoEnd.position, cronometro / 6f);
                 Camera.main.transform.position = dragao.transform.position - new Vector3(4.5f, 0.3f, 0);
-                Camera.main.transform.LookAt(dragao);
+                Camera.main.transform.LookAt(dragao.transform);
 
             // Camera olhando pro player
             } else if (cronometro < 10) {

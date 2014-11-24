@@ -1,0 +1,1857 @@
+fileFormatVersion: 2
+guid: 06cf204baa8e7734f8f4c3c7c334632b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Area
+    100002: arm_wing1_L
+    100004: arm_wing1_R
+    100006: arm_wing_L
+    100008: arm_wing_R
+    100010: Armature
+    100012: Camera
+    100014: corn1_L
+    100016: corn1_R
+    100018: corn3_L
+    100020: corn3_R
+    100022: corn4_L
+    100024: corn4_R
+    100026: corn5_L
+    100028: corn5_R
+    100030: corn6_L
+    100032: corn6_R
+    100034: corn7_L
+    100036: corn7_R
+    100038: corn_L
+    100040: corn_R
+    100042: ctrl-foot_L
+    100044: ctrl-foot_R
+    100046: ctrlfingersfoot_L
+    100048: ctrlfingersfoot_R
+    100050: ctrlhand_L
+    100052: ctrlhand_L_001
+    100054: ctrlhand_R
+    100056: ctrlhand_R_001
+    100058: ctrlwing_L
+    100060: ctrlwing_R
+    100062: dents
+    100064: dents_001
+    100066: //RootNode
+    100068: dragon
+    100070: eye2_L
+    100072: eye2_R
+    100074: eye_L
+    100076: eye_R
+    100078: femur_L
+    100080: femur_R
+    100082: finger_middle_01_L
+    100084: finger_middle_01_R
+    100086: finger_middle_02_L
+    100088: finger_middle_02_R
+    100090: finger_middle_03_L
+    100092: finger_middle_03_R
+    100094: finger_middle_leg1_L
+    100096: finger_middle_leg1_R
+    100098: finger_middle_leg2_L
+    100100: finger_middle_leg2_R
+    100102: finger_middle_leg_L
+    100104: finger_middle_leg_R
+    100106: finger_pinky_01_L
+    100108: finger_pinky_01_L_001
+    100110: finger_pinky_01_R
+    100112: finger_pinky_01_R_001
+    100114: finger_pinky_02_L
+    100116: finger_pinky_02_L_001
+    100118: finger_pinky_02_R
+    100120: finger_pinky_02_R_001
+    100122: finger_pinky_03_L
+    100124: finger_pinky_03_L_001
+    100126: finger_pinky_03_R
+    100128: finger_pinky_03_R_001
+    100130: finger_pinky_leg4_L
+    100132: finger_pinky_leg4_R
+    100134: finger_pinky_leg5_L
+    100136: finger_pinky_leg5_R
+    100138: finger_pinky_leg_1_L
+    100140: finger_pinky_leg_1_R
+    100142: finger_pinky_leg_2_L
+    100144: finger_pinky_leg_2_R
+    100146: finger_pinky_leg_L
+    100148: finger_pinky_leg_R
+    100150: finger_ring_01_L
+    100152: finger_ring_01_R
+    100154: finger_ring_02_L
+    100156: finger_ring_02_R
+    100158: finger_ring_03_L
+    100160: finger_ring_03_R
+    100162: finger_ring_leg1_L
+    100164: finger_ring_leg1_R
+    100166: finger_ring_leg2_L
+    100168: finger_ring_leg2_R
+    100170: finger_ring_leg_L
+    100172: finger_ring_leg_R
+    100174: finger_wing1_L
+    100176: finger_wing1_R
+    100178: finger_wing3_L
+    100180: finger_wing3_R
+    100182: finger_wing4_L
+    100184: finger_wing4_R
+    100186: finger_wing5_L
+    100188: finger_wing5_R
+    100190: finger_wing6_L
+    100192: finger_wing6_R
+    100194: finger_wing7_L
+    100196: finger_wing7_R
+    100198: finger_wing8_L
+    100200: finger_wing8_R
+    100202: finger_wing_L
+    100204: finger_wing_R
+    100206: foot_L
+    100208: foot_R
+    100210: forearm_L
+    100212: forearm_R
+    100214: forearm_wing_L
+    100216: forearm_wing_R
+    100218: hand_L
+    100220: hand_R
+    100222: head
+    100224: Hemi
+    100226: Hemi_001
+    100228: hips
+    100230: hips_001
+    100232: hips_002
+    100234: hips_003
+    100236: hips_004
+    100238: hips_005
+    100240: hips_006
+    100242: hips_007
+    100244: hips_008
+    100246: hips_009
+    100248: hips_010
+    100250: hips_011
+    100252: hips_012
+    100254: hips_013
+    100256: hips_014
+    100258: hips_015
+    100260: hips_016
+    100262: hips_017
+    100264: hips_018
+    100266: hips_019
+    100268: hips_020
+    100270: hips_021
+    100272: hips_022
+    100274: hips_023
+    100276: hips_024
+    100278: hips_025
+    100280: hips_026
+    100282: hips_027
+    100284: hips_028
+    100286: hips_029
+    100288: hips_030
+    100290: hips_031
+    100292: hips_032
+    100294: hips_033
+    100296: hips_034
+    100298: hips_035
+    100300: hips_036
+    100302: hips_037
+    100304: hips_038
+    100306: hips_039
+    100308: hips_040
+    100310: hips_041
+    100312: hips_043
+    100314: leg_L
+    100316: leg_R
+    100318: neck
+    100320: neck_001
+    100322: neck_002
+    100324: neck_003
+    100326: neck_004
+    100328: neck_005
+    100330: neck_006
+    100332: neck_007
+    100334: neck_008
+    100336: nose_L
+    100338: nose_R
+    100340: Plane
+    100342: pole_arm_L
+    100344: pole_arm_R
+    100346: pole_leg_L
+    100348: pole_leg_R
+    100350: ribs
+    100352: ribs_001
+    100354: ribs_002
+    100356: ribs_003
+    100358: ribs_004
+    100360: ribs_005
+    100362: ribs_006
+    100364: ribs_007
+    100366: shoulder_L
+    100368: shoulder_R
+    100370: shoulder_wing_L
+    100372: shoulder_wing_R
+    100374: spine
+    100376: spine_001
+    100378: spine_002
+    100380: spine_003
+    100382: spine_004
+    100384: spine_005
+    100386: spine_006
+    100388: spine_007
+    100390: tibia_L
+    100392: tibia_R
+    100394: upper_arm_L
+    100396: upper_arm_R
+    100398: wing1_L
+    100400: wing1_R
+    100402: Wing2_L
+    100404: wing2_L
+    100406: Wing2_R
+    100408: wing2_R
+    100410: wing3_L
+    100412: wing3_R
+    100414: wing_L
+    100416: wing_R
+    100418: yeux
+    100420: yeux_001
+    100422: dents_002
+    100424: dents_003
+    100426: dents_004
+    100428: dents_005
+    100430: yeux_002
+    100432: yeux_003
+    100434: yeux_004
+    100436: yeux_005
+    400000: Area
+    400002: arm_wing1_L
+    400004: arm_wing1_R
+    400006: arm_wing_L
+    400008: arm_wing_R
+    400010: Armature
+    400012: Camera
+    400014: corn1_L
+    400016: corn1_R
+    400018: corn3_L
+    400020: corn3_R
+    400022: corn4_L
+    400024: corn4_R
+    400026: corn5_L
+    400028: corn5_R
+    400030: corn6_L
+    400032: corn6_R
+    400034: corn7_L
+    400036: corn7_R
+    400038: corn_L
+    400040: corn_R
+    400042: ctrl-foot_L
+    400044: ctrl-foot_R
+    400046: ctrlfingersfoot_L
+    400048: ctrlfingersfoot_R
+    400050: ctrlhand_L
+    400052: ctrlhand_L_001
+    400054: ctrlhand_R
+    400056: ctrlhand_R_001
+    400058: ctrlwing_L
+    400060: ctrlwing_R
+    400062: dents
+    400064: dents_001
+    400066: //RootNode
+    400068: dragon
+    400070: eye2_L
+    400072: eye2_R
+    400074: eye_L
+    400076: eye_R
+    400078: femur_L
+    400080: femur_R
+    400082: finger_middle_01_L
+    400084: finger_middle_01_R
+    400086: finger_middle_02_L
+    400088: finger_middle_02_R
+    400090: finger_middle_03_L
+    400092: finger_middle_03_R
+    400094: finger_middle_leg1_L
+    400096: finger_middle_leg1_R
+    400098: finger_middle_leg2_L
+    400100: finger_middle_leg2_R
+    400102: finger_middle_leg_L
+    400104: finger_middle_leg_R
+    400106: finger_pinky_01_L
+    400108: finger_pinky_01_L_001
+    400110: finger_pinky_01_R
+    400112: finger_pinky_01_R_001
+    400114: finger_pinky_02_L
+    400116: finger_pinky_02_L_001
+    400118: finger_pinky_02_R
+    400120: finger_pinky_02_R_001
+    400122: finger_pinky_03_L
+    400124: finger_pinky_03_L_001
+    400126: finger_pinky_03_R
+    400128: finger_pinky_03_R_001
+    400130: finger_pinky_leg4_L
+    400132: finger_pinky_leg4_R
+    400134: finger_pinky_leg5_L
+    400136: finger_pinky_leg5_R
+    400138: finger_pinky_leg_1_L
+    400140: finger_pinky_leg_1_R
+    400142: finger_pinky_leg_2_L
+    400144: finger_pinky_leg_2_R
+    400146: finger_pinky_leg_L
+    400148: finger_pinky_leg_R
+    400150: finger_ring_01_L
+    400152: finger_ring_01_R
+    400154: finger_ring_02_L
+    400156: finger_ring_02_R
+    400158: finger_ring_03_L
+    400160: finger_ring_03_R
+    400162: finger_ring_leg1_L
+    400164: finger_ring_leg1_R
+    400166: finger_ring_leg2_L
+    400168: finger_ring_leg2_R
+    400170: finger_ring_leg_L
+    400172: finger_ring_leg_R
+    400174: finger_wing1_L
+    400176: finger_wing1_R
+    400178: finger_wing3_L
+    400180: finger_wing3_R
+    400182: finger_wing4_L
+    400184: finger_wing4_R
+    400186: finger_wing5_L
+    400188: finger_wing5_R
+    400190: finger_wing6_L
+    400192: finger_wing6_R
+    400194: finger_wing7_L
+    400196: finger_wing7_R
+    400198: finger_wing8_L
+    400200: finger_wing8_R
+    400202: finger_wing_L
+    400204: finger_wing_R
+    400206: foot_L
+    400208: foot_R
+    400210: forearm_L
+    400212: forearm_R
+    400214: forearm_wing_L
+    400216: forearm_wing_R
+    400218: hand_L
+    400220: hand_R
+    400222: head
+    400224: Hemi
+    400226: Hemi_001
+    400228: hips
+    400230: hips_001
+    400232: hips_002
+    400234: hips_003
+    400236: hips_004
+    400238: hips_005
+    400240: hips_006
+    400242: hips_007
+    400244: hips_008
+    400246: hips_009
+    400248: hips_010
+    400250: hips_011
+    400252: hips_012
+    400254: hips_013
+    400256: hips_014
+    400258: hips_015
+    400260: hips_016
+    400262: hips_017
+    400264: hips_018
+    400266: hips_019
+    400268: hips_020
+    400270: hips_021
+    400272: hips_022
+    400274: hips_023
+    400276: hips_024
+    400278: hips_025
+    400280: hips_026
+    400282: hips_027
+    400284: hips_028
+    400286: hips_029
+    400288: hips_030
+    400290: hips_031
+    400292: hips_032
+    400294: hips_033
+    400296: hips_034
+    400298: hips_035
+    400300: hips_036
+    400302: hips_037
+    400304: hips_038
+    400306: hips_039
+    400308: hips_040
+    400310: hips_041
+    400312: hips_043
+    400314: leg_L
+    400316: leg_R
+    400318: neck
+    400320: neck_001
+    400322: neck_002
+    400324: neck_003
+    400326: neck_004
+    400328: neck_005
+    400330: neck_006
+    400332: neck_007
+    400334: neck_008
+    400336: nose_L
+    400338: nose_R
+    400340: Plane
+    400342: pole_arm_L
+    400344: pole_arm_R
+    400346: pole_leg_L
+    400348: pole_leg_R
+    400350: ribs
+    400352: ribs_001
+    400354: ribs_002
+    400356: ribs_003
+    400358: ribs_004
+    400360: ribs_005
+    400362: ribs_006
+    400364: ribs_007
+    400366: shoulder_L
+    400368: shoulder_R
+    400370: shoulder_wing_L
+    400372: shoulder_wing_R
+    400374: spine
+    400376: spine_001
+    400378: spine_002
+    400380: spine_003
+    400382: spine_004
+    400384: spine_005
+    400386: spine_006
+    400388: spine_007
+    400390: tibia_L
+    400392: tibia_R
+    400394: upper_arm_L
+    400396: upper_arm_R
+    400398: wing1_L
+    400400: wing1_R
+    400402: Wing2_L
+    400404: wing2_L
+    400406: Wing2_R
+    400408: wing2_R
+    400410: wing3_L
+    400412: wing3_R
+    400414: wing_L
+    400416: wing_R
+    400418: yeux
+    400420: yeux_001
+    400422: dents_002
+    400424: dents_003
+    400426: dents_004
+    400428: dents_005
+    400430: yeux_002
+    400432: yeux_003
+    400434: yeux_004
+    400436: yeux_005
+    2300000: Plane
+    2300002: dents_002
+    2300004: dents_003
+    2300006: dents_004
+    2300008: dents_005
+    2300010: yeux_002
+    2300012: yeux_003
+    2300014: yeux_004
+    2300016: yeux_005
+    3300000: Plane
+    3300002: dents_002
+    3300004: dents_003
+    3300006: dents_004
+    3300008: dents_005
+    3300010: yeux_002
+    3300012: yeux_003
+    3300014: yeux_004
+    3300016: yeux_005
+    4300000: Plane
+    4300002: yeux_001
+    4300004: dents_001
+    4300006: dragon
+    4300008: dents
+    4300010: yeux
+    4300012: dents_002
+    4300014: dents_003
+    4300016: yeux_002
+    4300018: yeux_003
+    4300020: dents_004
+    4300022: dents_005
+    4300024: yeux_004
+    4300026: yeux_005
+    7400000: Default Take
+    7400002: Dormindo
+    7400004: Fire
+    7400006: Flying
+    7400008: Dormindo_001
+    7400010: Dormindo_002
+    7400012: Sleeping
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: dents
+    13700002: dents_001
+    13700004: dragon
+    13700006: yeux
+    13700008: yeux_001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Sleeping
+      takeName: Sleeping
+      firstFrame: 2
+      lastFrame: 83
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ctrl-foot_L
+        weight: 1
+      - path: Armature/ctrl-foot_R
+        weight: 1
+      - path: Armature/ctrlhand_L
+        weight: 1
+      - path: Armature/ctrlhand_R_001
+        weight: 1
+      - path: Armature/ctrlwing_L
+        weight: 1
+      - path: Armature/ctrlwing_R
+        weight: 1
+      - path: Armature/hips
+        weight: 1
+      - path: Armature/hips/hips_010
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019/hips_021
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019/hips_021/hips_008
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019/hips_021/hips_041
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019/hips_040
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_039
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_038
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_037
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_036
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_035
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_034
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_033
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_032
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_031
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_030
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_029
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_028
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_027
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_026
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_025
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_024
+        weight: 1
+      - path: Armature/hips/hips_010/hips_023
+        weight: 1
+      - path: Armature/hips/hips_010/spine
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/ctrlfingersfoot_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_middle_leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_middle_leg_L/finger_middle_leg1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_middle_leg_L/finger_middle_leg1_L/finger_middle_leg2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg5_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg5_L/finger_pinky_leg4_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg_L/finger_pinky_leg_1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg_L/finger_pinky_leg_1_L/finger_pinky_leg_2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_ring_leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_ring_leg_L/finger_ring_leg1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_ring_leg_L/finger_ring_leg1_L/finger_ring_leg2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/pole_leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/ctrlfingersfoot_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_middle_leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_middle_leg_R/finger_middle_leg1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_middle_leg_R/finger_middle_leg1_R/finger_middle_leg2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg5_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg5_R/finger_pinky_leg4_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg_R/finger_pinky_leg_1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg_R/finger_pinky_leg_1_R/finger_pinky_leg_2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_ring_leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_ring_leg_R/finger_ring_leg1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_ring_leg_R/finger_ring_leg1_R/finger_ring_leg2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/pole_leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_L/corn6_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_L/corn6_L/corn7_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_R/corn6_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_R/corn6_R/corn7_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn3_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn3_L/corn4_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn3_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn3_R/corn4_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn_L/corn1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn_R/corn1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/eye2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/eye2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/eye_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/eye_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_003
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_003/neck_004
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_005
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_005/neck_006
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_005/neck_006/neck_007
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/nose_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/nose_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_008
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/ribs_007
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_006
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_005
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_004
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/finger_pinky_01_L_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/finger_pinky_01_L_001/finger_pinky_02_L_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/finger_pinky_01_L_001/finger_pinky_02_L_001/finger_pinky_03_L_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/ctrlhand_L_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_middle_01_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_middle_01_L/finger_middle_02_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_middle_01_L/finger_middle_02_L/finger_middle_03_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_pinky_01_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_pinky_01_L/finger_pinky_02_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_pinky_01_L/finger_pinky_02_L/finger_pinky_03_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_ring_01_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_ring_01_L/finger_ring_02_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_ring_01_L/finger_ring_02_L/finger_ring_03_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/pole_arm_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/finger_pinky_01_R_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/finger_pinky_01_R_001/finger_pinky_02_R_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/finger_pinky_01_R_001/finger_pinky_02_R_001/finger_pinky_03_R_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/ctrlhand_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_middle_01_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_middle_01_R/finger_middle_02_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_middle_01_R/finger_middle_02_R/finger_middle_03_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_pinky_01_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_pinky_01_R/finger_pinky_02_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_pinky_01_R/finger_pinky_02_R/finger_pinky_03_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_ring_01_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_ring_01_R/finger_ring_02_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_ring_01_R/finger_ring_02_R/finger_ring_03_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/pole_arm_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/arm_wing1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/finger_wing3_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/finger_wing3_L/finger_wing4_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/finger_wing5_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/finger_wing5_L/finger_wing6_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing3_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing_L/finger_wing7_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing_L/finger_wing7_L/finger_wing8_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing_L/Wing2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/finger_wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/finger_wing_L/finger_wing1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/arm_wing1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/finger_wing3_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/finger_wing3_R/finger_wing4_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/finger_wing5_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/finger_wing5_R/finger_wing6_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing3_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing_R/finger_wing7_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing_R/finger_wing7_R/finger_wing8_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing_R/Wing2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/finger_wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/finger_wing_R/finger_wing1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/spine_007
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_006
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_005
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_004
+        weight: 1
+      - path: Armature/hips/hips_022
+        weight: 1
+      - path: Armature/hips_009
+        weight: 1
+      - path: Armature/hips_043
+        weight: 1
+      - path: Armature/neck_002
+        weight: 1
+      - path: dents
+        weight: 1
+      - path: dents_001
+        weight: 1
+      - path: dragon
+        weight: 1
+      - path: yeux
+        weight: 1
+      - path: yeux_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fire
+      takeName: Fire
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ctrl-foot_L
+        weight: 1
+      - path: Armature/ctrl-foot_R
+        weight: 1
+      - path: Armature/ctrlhand_L
+        weight: 1
+      - path: Armature/ctrlhand_R_001
+        weight: 1
+      - path: Armature/ctrlwing_L
+        weight: 1
+      - path: Armature/ctrlwing_R
+        weight: 1
+      - path: Armature/hips
+        weight: 1
+      - path: Armature/hips/hips_010
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019/hips_021
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019/hips_021/hips_008
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019/hips_021/hips_041
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019/hips_040
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_039
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_038
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_037
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_036
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_035
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_034
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_033
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_032
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_031
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_030
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_029
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_028
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_027
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_026
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_025
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_024
+        weight: 1
+      - path: Armature/hips/hips_010/hips_023
+        weight: 1
+      - path: Armature/hips/hips_010/spine
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/ctrlfingersfoot_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_middle_leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_middle_leg_L/finger_middle_leg1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_middle_leg_L/finger_middle_leg1_L/finger_middle_leg2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg5_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg5_L/finger_pinky_leg4_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg_L/finger_pinky_leg_1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg_L/finger_pinky_leg_1_L/finger_pinky_leg_2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_ring_leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_ring_leg_L/finger_ring_leg1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_ring_leg_L/finger_ring_leg1_L/finger_ring_leg2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/pole_leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/ctrlfingersfoot_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_middle_leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_middle_leg_R/finger_middle_leg1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_middle_leg_R/finger_middle_leg1_R/finger_middle_leg2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg5_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg5_R/finger_pinky_leg4_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg_R/finger_pinky_leg_1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg_R/finger_pinky_leg_1_R/finger_pinky_leg_2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_ring_leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_ring_leg_R/finger_ring_leg1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_ring_leg_R/finger_ring_leg1_R/finger_ring_leg2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/pole_leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_L/corn6_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_L/corn6_L/corn7_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_R/corn6_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_R/corn6_R/corn7_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn3_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn3_L/corn4_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn3_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn3_R/corn4_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn_L/corn1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn_R/corn1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/eye2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/eye2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/eye_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/eye_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_003
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_003/neck_004
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_005
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_005/neck_006
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_005/neck_006/neck_007
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/nose_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/nose_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_008
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/ribs_007
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_006
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_005
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_004
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/finger_pinky_01_L_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/finger_pinky_01_L_001/finger_pinky_02_L_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/finger_pinky_01_L_001/finger_pinky_02_L_001/finger_pinky_03_L_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/ctrlhand_L_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_middle_01_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_middle_01_L/finger_middle_02_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_middle_01_L/finger_middle_02_L/finger_middle_03_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_pinky_01_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_pinky_01_L/finger_pinky_02_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_pinky_01_L/finger_pinky_02_L/finger_pinky_03_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_ring_01_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_ring_01_L/finger_ring_02_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_ring_01_L/finger_ring_02_L/finger_ring_03_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/pole_arm_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/finger_pinky_01_R_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/finger_pinky_01_R_001/finger_pinky_02_R_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/finger_pinky_01_R_001/finger_pinky_02_R_001/finger_pinky_03_R_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/ctrlhand_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_middle_01_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_middle_01_R/finger_middle_02_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_middle_01_R/finger_middle_02_R/finger_middle_03_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_pinky_01_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_pinky_01_R/finger_pinky_02_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_pinky_01_R/finger_pinky_02_R/finger_pinky_03_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_ring_01_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_ring_01_R/finger_ring_02_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_ring_01_R/finger_ring_02_R/finger_ring_03_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/pole_arm_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/arm_wing1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/finger_wing3_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/finger_wing3_L/finger_wing4_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/finger_wing5_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/finger_wing5_L/finger_wing6_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing3_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing_L/finger_wing7_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing_L/finger_wing7_L/finger_wing8_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing_L/Wing2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/finger_wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/finger_wing_L/finger_wing1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/arm_wing1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/finger_wing3_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/finger_wing3_R/finger_wing4_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/finger_wing5_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/finger_wing5_R/finger_wing6_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing3_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing_R/finger_wing7_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing_R/finger_wing7_R/finger_wing8_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing_R/Wing2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/finger_wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/finger_wing_R/finger_wing1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/spine_007
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_006
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_005
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_004
+        weight: 1
+      - path: Armature/hips/hips_022
+        weight: 1
+      - path: Armature/hips_009
+        weight: 1
+      - path: Armature/hips_043
+        weight: 1
+      - path: Armature/neck_002
+        weight: 1
+      - path: dents
+        weight: 1
+      - path: dents_001
+        weight: 1
+      - path: dragon
+        weight: 1
+      - path: yeux
+        weight: 1
+      - path: yeux_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Flying
+      takeName: Flying
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/ctrl-foot_L
+        weight: 1
+      - path: Armature/ctrl-foot_R
+        weight: 1
+      - path: Armature/ctrlhand_L
+        weight: 1
+      - path: Armature/ctrlhand_R_001
+        weight: 1
+      - path: Armature/ctrlwing_L
+        weight: 1
+      - path: Armature/ctrlwing_R
+        weight: 1
+      - path: Armature/hips
+        weight: 1
+      - path: Armature/hips/hips_010
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019/hips_021
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019/hips_021/hips_008
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019/hips_021/hips_041
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_019/hips_040
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_020/hips_039
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_004/hips_038
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_018/hips_037
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_016/hips_036
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_017/hips_035
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_006/hips_034
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_015/hips_033
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_002/hips_032
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_014/hips_031
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_007/hips_030
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_003/hips_029
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_013/hips_028
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_011/hips_027
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_012/hips_026
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_005/hips_025
+        weight: 1
+      - path: Armature/hips/hips_010/hips_001/hips_024
+        weight: 1
+      - path: Armature/hips/hips_010/hips_023
+        weight: 1
+      - path: Armature/hips/hips_010/spine
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/ctrlfingersfoot_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_middle_leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_middle_leg_L/finger_middle_leg1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_middle_leg_L/finger_middle_leg1_L/finger_middle_leg2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg5_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg5_L/finger_pinky_leg4_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg_L/finger_pinky_leg_1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_pinky_leg_L/finger_pinky_leg_1_L/finger_pinky_leg_2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_ring_leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_ring_leg_L/finger_ring_leg1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/finger_ring_leg_L/finger_ring_leg1_L/finger_ring_leg2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_L/femur_L/tibia_L/foot_L/pole_leg_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/ctrlfingersfoot_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_middle_leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_middle_leg_R/finger_middle_leg1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_middle_leg_R/finger_middle_leg1_R/finger_middle_leg2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg5_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg5_R/finger_pinky_leg4_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg_R/finger_pinky_leg_1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_pinky_leg_R/finger_pinky_leg_1_R/finger_pinky_leg_2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_ring_leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_ring_leg_R/finger_ring_leg1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/finger_ring_leg_R/finger_ring_leg1_R/finger_ring_leg2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/leg_R/femur_R/tibia_R/foot_R/pole_leg_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_L/corn6_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_L/corn6_L/corn7_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_R/corn6_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/corn5_R/corn6_R/corn7_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn3_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn3_L/corn4_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn3_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn3_R/corn4_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn_L/corn1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/corn_R/corn1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/eye2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/eye2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/eye_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/eye_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_003
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_003/neck_004
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_005
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_005/neck_006
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/neck_005/neck_006/neck_007
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/nose_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_001/head/nose_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/neck/neck_008
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_001/ribs_007
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_003/ribs_006
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_002/ribs_005
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/ribs/ribs_004
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/finger_pinky_01_L_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/finger_pinky_01_L_001/finger_pinky_02_L_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/finger_pinky_01_L_001/finger_pinky_02_L_001/finger_pinky_03_L_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/ctrlhand_L_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_middle_01_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_middle_01_L/finger_middle_02_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_middle_01_L/finger_middle_02_L/finger_middle_03_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_pinky_01_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_pinky_01_L/finger_pinky_02_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_pinky_01_L/finger_pinky_02_L/finger_pinky_03_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_ring_01_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_ring_01_L/finger_ring_02_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/finger_ring_01_L/finger_ring_02_L/finger_ring_03_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_L/upper_arm_L/forearm_L/hand_L/pole_arm_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/finger_pinky_01_R_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/finger_pinky_01_R_001/finger_pinky_02_R_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/finger_pinky_01_R_001/finger_pinky_02_R_001/finger_pinky_03_R_001
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/ctrlhand_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_middle_01_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_middle_01_R/finger_middle_02_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_middle_01_R/finger_middle_02_R/finger_middle_03_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_pinky_01_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_pinky_01_R/finger_pinky_02_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_pinky_01_R/finger_pinky_02_R/finger_pinky_03_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_ring_01_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_ring_01_R/finger_ring_02_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/finger_ring_01_R/finger_ring_02_R/finger_ring_03_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_R/upper_arm_R/forearm_R/hand_R/pole_arm_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/arm_wing1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/finger_wing3_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/finger_wing3_L/finger_wing4_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/finger_wing5_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/finger_wing5_L/finger_wing6_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing3_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing_L/finger_wing7_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing_L/finger_wing7_L/finger_wing8_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/arm_wing_L/forearm_wing_L/wing_L/Wing2_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/finger_wing_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_L/finger_wing_L/finger_wing1_L
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/arm_wing1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/finger_wing3_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/finger_wing3_R/finger_wing4_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/finger_wing5_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/finger_wing5_R/finger_wing6_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing3_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing_R/finger_wing7_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing_R/finger_wing7_R/finger_wing8_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/arm_wing_R/forearm_wing_R/wing_R/Wing2_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/finger_wing_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/shoulder_wing_R/finger_wing_R/finger_wing1_R
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_002/spine_007
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_003/spine_006
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_001/spine_005
+        weight: 1
+      - path: Armature/hips/hips_010/spine/spine_004
+        weight: 1
+      - path: Armature/hips/hips_022
+        weight: 1
+      - path: Armature/hips_009
+        weight: 1
+      - path: Armature/hips_043
+        weight: 1
+      - path: Armature/neck_002
+        weight: 1
+      - path: dents
+        weight: 1
+      - path: dents_001
+        weight: 1
+      - path: dragon
+        weight: 1
+      - path: yeux
+        weight: 1
+      - path: yeux_001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

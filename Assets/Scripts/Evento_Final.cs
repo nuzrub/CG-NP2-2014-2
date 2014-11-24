@@ -48,7 +48,8 @@ public class Evento_Final : MonoBehaviour {
 			} else {
 				cameraRotation.ResetCamera();
 				Destroy(dragao.gameObject);
-				Destroy(player1);
+				Destroy(player1.transform.GetChild(0).gameObject);
+				Destroy(player1.transform.GetChild(1).gameObject);
 				Destroy(this.gameObject);
 			}
 		}

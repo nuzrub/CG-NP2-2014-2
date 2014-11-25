@@ -11,8 +11,12 @@ public class Portal : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter(Collider other) {
-		Instantiate(smoke,smokePoint.position,smokePoint.rotation);
-		other.transform.position = respawnPoint.position;
-		other.transform.rotation = respawnPoint.rotation;
+        Teleportar(other.transform);
 	}
+
+    public void Teleportar(Transform other) {
+        Instantiate(smoke, smokePoint.position, smokePoint.rotation);
+        other.position = respawnPoint.position;
+        other.rotation = respawnPoint.rotation;
+    }
 }

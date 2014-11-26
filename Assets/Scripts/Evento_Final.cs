@@ -42,7 +42,7 @@ public class Evento_Final : MonoBehaviour {
             // Camera seguindo o dragão
             if (cronometro < 5) {
                 dragao.transform.position = Vector3.Lerp(dragaoStart.position, dragaoEnd.position, cronometro / 6f);
-                Camera.main.transform.position = dragao.transform.position - new Vector3(4.5f, 0.3f, 0);
+                Camera.main.transform.position = dragao.transform.position - new Vector3(5.5f, -1.3f, 1);
                 Camera.main.transform.LookAt(dragao.transform);
             } else {
                 cameraRotation.ResetCamera();

@@ -40,7 +40,7 @@ public class Evento_Ygor : MonoBehaviour {
         if (comecou) {
             cronometro += Time.deltaTime;
 
-            // Camera seguindo o dragão
+            // Camera seguindo o dragão e escolhendo os pontos de inicio e do fim da movimentacao do dragao durante o evento.
             if (cronometro < 3.5) {
                 dragao.transform.position = Vector3.Lerp(dragaoStart.position, dragaoEnd.position, cronometro / 6f);
                 Camera.main.transform.position = dragao.transform.position - new Vector3(4.5f, 0.3f, 0);

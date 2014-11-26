@@ -10,7 +10,7 @@ public class BGM_Controller : MonoBehaviour {
     public AudioClip mad;
     public AudioClip dota;
 
-
+	/* Inicia o audio ambiente do jogo quando o jogo iniciado. */
 	void Start () {
         audio.clip = intro;
         audio.Play();
@@ -18,6 +18,7 @@ public class BGM_Controller : MonoBehaviour {
         instance = this;
 	}
 
+	/* Instancia os sons do jogo. */
     public static void PlayIntro() {
         instance.changeAudio(instance.intro);
     }
@@ -38,6 +39,7 @@ public class BGM_Controller : MonoBehaviour {
         instance.audio.loop = false;
     }
 
+	/* Modifica a musica ambiente do jogo durante os eventos. */
     private void changeAudio(AudioClip newclip) {
         audio.Stop();
         audio.clip = newclip;

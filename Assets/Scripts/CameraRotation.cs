@@ -7,11 +7,13 @@ public class CameraRotation : MonoBehaviour {
     public Quaternion initialRot;
 	public int speed;
 
+	//Metodo para iniciar a rotacao da camera.
     void Start() {
         initialPos = transform.localPosition;
         initialRot = transform.localRotation;
     }
 
+	//Metodo que ira girar a camera em torno do personagem, e olhando para o personagem.
 	void Update () {
         Vector3 pivot = transform.parent.position;
 

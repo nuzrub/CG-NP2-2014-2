@@ -21,7 +21,7 @@ public class Evento_Victor : MonoBehaviour {
     private bool comecouSom2;
 	
 	/* O Evento começa aqui, quando o jogador colide com o
-     * ativador
+     * ativador, o dragao que estava dormindo acorda e 
      * */
 	void OnTriggerEnter(Collider other) {
 		if (!comecou) {
@@ -48,15 +48,18 @@ public class Evento_Victor : MonoBehaviour {
 		if (comecou) {
 			cronometro += Time.deltaTime;
 			
-			// Camera seguindo o dragão
+			// Camera seguindo o dragão.
 			if (cronometro < 1) {
 				dragao.transform.position = Vector3.Lerp(dragaoStart.position, dragaoEnd.position, cronometro / 6f);
 				Camera.main.transform.position = dragao.transform.position - new Vector3(-7.5f, 0.3f, 0);
 				Camera.main.transform.LookAt(dragao.transform);
 
+				//Adiciona o efeito para empurra os pilares e o tecido.
                 foreach (var rb in pilares) {
                     rb.AddExplosionForce(-200f * Time.deltaTime, dragao.transform.position, 65f);
                 }
+
+				// Camera olhando para o dragao enquanto ele levanta voo lancando o efeito de fogo.
             }else if (cronometro < 6) {
                 dragao.transform.position = Vector3.Lerp(dragaoStart.position, dragaoEnd.position, cronometro / 6f);
                 player.transform.position = Vector3.Lerp(player.transform.position, playerEnd.position, (cronometro - 1) / 15f);
@@ -64,6 +67,7 @@ public class Evento_Victor : MonoBehaviour {
                 Camera.main.transform.position -= Vector3.Lerp(new Vector3(-7.5f, 0.3f, 0), new Vector3(-12.5f, 4.0f, 0), (cronometro - 1) / 5f);
                 Camera.main.transform.LookAt(dragao.transform);
 
+				//Adiciona o efeito para empurra os pilares e o tecido.
                 foreach (var rb in pilares) {
                     rb.AddExplosionForce(-200f * Time.deltaTime, dragao.transform.position, 65f);
                 }
@@ -74,6 +78,8 @@ public class Evento_Victor : MonoBehaviour {
                 }
 				// Voltando pra câmera normal e destruindo o evento e dragão.
 			} else {
+
+				//Elimina o dragao e este evento no fim da cena e ativa o evento final.
 				Destroy(dragao.gameObject);
 				//Destroy(player1.transform.GetChild(0).gameObject);
 				//Destroy(player1.transform.GetChild(1).gameObject);

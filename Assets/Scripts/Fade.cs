@@ -10,12 +10,15 @@ public class Fade : MonoBehaviour {
 
 
 	void Update () {
+
+		// Aumenta a intensidade de luz.
 		if (Input.GetKey(KeyCode.M)) {
 			if (luz.intensity < limiteSuperior) {
 				luz.intensity += velocidade * Time.deltaTime;
 			}
 		} 
 
+		//Diminui a intensidade de luz.
 		if (Input.GetKey(KeyCode.N)) {		
 			if(luz.intensity > limiteInferior)	{
 				luz.intensity -= velocidade * Time.deltaTime;

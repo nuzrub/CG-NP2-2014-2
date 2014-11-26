@@ -24,6 +24,8 @@ public class MoverPlataforma : MonoBehaviour {
         } else {
             rigidbody.MovePosition(Vector3.Lerp(start.position, end.position, cronometro / duration));
         }*/
+
+		// Inicia o movimento da plataforma para a direita se a variavel "voltando" for "false" e para a esquerda se for "true".
         if (voltando) {
             rigidbody.velocity = (end.position - start.position) / duration;
         } else {

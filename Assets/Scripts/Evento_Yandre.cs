@@ -8,11 +8,13 @@ public class Evento_Yandre : MonoBehaviour {
     public Transform dragaoEnd;
     public CameraRotation cameraRotation;
     public Light luz;
+    public AudioClip som2;
 
     private DragaoScript dragao;
     private MovimentoHumanoide player;
     private float cronometro;
     private bool comecou;
+    private bool comecouSom2;
 
     void OnTriggerEnter(Collider other) {
         if (!comecou) {
@@ -25,6 +27,10 @@ public class Evento_Yandre : MonoBehaviour {
             dragao.Voar();
             dragao.transform.RotateAround(dragao.transform.position, Vector3.up, 225);
 
+            audio.PlayOneShot(audio.clip);
+            comecouSom2 = false;
+
+            BGM_Controller.PlayEmergency();
         }
     }
 
@@ -41,6 +47,10 @@ public class Evento_Yandre : MonoBehaviour {
                 Camera.main.transform.position = dragao.transform.position - new Vector3(1.5f, -2f, 6f);
                 Camera.main.transform.LookAt(dragao.transform);
                 dragao.UsarFogo();
+                if (comecouSom2 == false) {
+                    audio.PlayOneShot(som2);
+                    comecouSom2 = true;
+                }
             } else if (cronometro < 10) {
                 Camera.main.transform.position = player.transform.position - new Vector3(0.5f, -0.1f, -0.3f);
                 Camera.main.transform.LookAt(player.transform);
@@ -49,6 +59,7 @@ public class Evento_Yandre : MonoBehaviour {
                 cameraRotation.ResetCamera();
                 player.Habilitado = true;
                 Destroy(dragao.gameObject);
+                BGM_Controller.PlayPlan();
                 Destroy(this.gameObject);
             }
 

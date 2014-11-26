@@ -12,11 +12,13 @@ public class Evento_Victor : MonoBehaviour {
 	public Light luz;
     public Rigidbody[] pilares;
 	public GameObject dragaoDormindo;
+    public AudioClip som2;
 
 	private DragaoScript dragao;
 	private MovimentoHumanoide player;
 	private float cronometro;
 	private bool comecou;
+    private bool comecouSom2;
 	
 	/* O Evento começa aqui, quando o jogador colide com o
      * ativador
@@ -35,6 +37,10 @@ public class Evento_Victor : MonoBehaviour {
 			dragao = dragaoObject.GetComponent<DragaoScript>();
 			dragao.Voar();
 			dragao.transform.RotateAround(dragao.transform.position, Vector3.up, 180);
+
+            audio.PlayOneShot(audio.clip);
+            comecouSom2 = false;
+            BGM_Controller.PlayEmergency();
 		}
 	}
 	
@@ -62,6 +68,10 @@ public class Evento_Victor : MonoBehaviour {
                     rb.AddExplosionForce(-200f * Time.deltaTime, dragao.transform.position, 65f);
                 }
                 dragao.UsarFogo();
+                if (comecouSom2 == false) {
+                    audio.PlayOneShot(som2);
+                    comecouSom2 = true;
+                }
 				// Voltando pra câmera normal e destruindo o evento e dragão.
 			} else {
 				Destroy(dragao.gameObject);
@@ -71,6 +81,7 @@ public class Evento_Victor : MonoBehaviour {
                 cameraRotation.ResetCamera();
                 player.enabled = true;
                 eventofinal.SetActive(true);
+                BGM_Controller.PlayMoonshift();
 			}
 		}
 	}

@@ -44,10 +44,12 @@ public class Evento_Ygor : MonoBehaviour {
             if (cronometro < 3.5) {
                 dragao.transform.position = Vector3.Lerp(dragaoStart.position, dragaoEnd.position, cronometro / 6f);
                 Camera.main.transform.position = dragao.transform.position - new Vector3(4.5f, 0.3f, 0);
+                Camera.main.transform.RotateAround(dragao.transform.position, Vector3.up, 360 * (cronometro / 6f));
                 Camera.main.transform.LookAt(dragao.transform);
             } else if (cronometro < 6) {
                 dragao.transform.position = Vector3.Lerp(dragaoStart.position, dragaoEnd.position, cronometro / 6f);
                 Camera.main.transform.position = dragao.transform.position - new Vector3(4.5f, 0.3f, 0);
+                Camera.main.transform.RotateAround(dragao.transform.position, Vector3.up, 360 * (cronometro / 6f));
                 Camera.main.transform.LookAt(dragao.transform);
                 dragao.UsarFogo();
                 if (comecouSom2 == false) {
